@@ -9,9 +9,9 @@ export default defineConfig({
     port: 8080,
   },
   plugins: [react()],
-  base: './',
+  base: '/trupti-vibhute/',  // Matches GitHub Pages URL
   build: {
-    outDir: 'dist'
+    outDir: 'dist'  // Already correct
   },
   resolve: {
     alias: {
