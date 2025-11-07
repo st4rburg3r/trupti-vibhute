@@ -18,7 +18,7 @@ const Blogs = () => {
     const fetchPosts = async () => {
       try {
         const response = await fetch(
-          'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@st4rburg3r'
+          'https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@trupti.v19625'
         );
         const data = await response.json();
         
