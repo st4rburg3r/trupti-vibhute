@@ -18,13 +18,9 @@ const Home = () => {
         {/* Welcome Text */}
         <div className="prose prose-invert max-w-none mb-12">
           <p className="text-foreground text-lg leading-relaxed mb-6">
-            Welcome to my digital space. I'm a developer passionate about building elegant solutions 
-            to complex problems. This is where I document my journey through code, technology, and life.
-          </p>
+            Hi, I'm Trupti. Welcome to my space — a simple corner where I share what I'm working on, learning, and thinking about.              </p>
           <p className="text-muted-foreground leading-relaxed">
-            I write about software engineering, cybersecurity, and the intersection of technology 
-            with everyday life. Whether you're here to read my latest thoughts, check out my projects, 
-            or just browse around—feel free to explore.
+            I'm into tech, creativity, and exploring how they come together in everyday life. Feel free to look around and see what I've been up to.
           </p>
         </div>
 
@@ -39,8 +35,8 @@ const Home = () => {
               <ArrowRight className="text-primary opacity-0 group-hover:opacity-100 transition-opacity" size={20} />
             </h3>
             <p className="text-muted-foreground text-sm">
-              Read my latest thoughts on tech, coding practices, and industry insights
-            </p>
+              Read my latest thoughts on tech and beyond
+            </p>  
           </Link>
 
           <Link
@@ -52,7 +48,7 @@ const Home = () => {
               <ArrowRight className="text-primary opacity-0 group-hover:opacity-100 transition-opacity" size={20} />
             </h3>
             <p className="text-muted-foreground text-sm">
-              Learn more about my background, skills, and what drives me
+              Learn more about my background, skills, and what drives me (crazy)
             </p>
           </Link>
 
@@ -65,7 +61,7 @@ const Home = () => {
               <ArrowRight className="text-primary opacity-0 group-hover:opacity-100 transition-opacity" size={20} />
             </h3>
             <p className="text-muted-foreground text-sm">
-              Short-form thoughts and quick tips on various topics
+              Short-form content including microblogs, syndicated social media posts and more.
             </p>
           </Link>
 
