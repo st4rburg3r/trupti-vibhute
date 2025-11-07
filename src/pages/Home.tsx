@@ -48,7 +48,7 @@ const Home = () => {
               <ArrowRight className="text-primary opacity-0 group-hover:opacity-100 transition-opacity" size={20} />
             </h3>
             <p className="text-muted-foreground text-sm">
-              Learn more about my background, skills, and what drives me (crazy)
+              Learn more about my background, skills, and what drives me(crazy)
             </p>
           </Link>
 
