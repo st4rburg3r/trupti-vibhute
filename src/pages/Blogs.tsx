@@ -74,7 +74,7 @@ const Blogs = () => {
             <p className="text-sm text-muted-foreground">
               Check out my{' '}
               <a
-                href="https://medium.com/@st4rburg3r"
+                href="https://medium.com/@trupti.v19625"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cyber-link text-primary"
@@ -143,7 +143,7 @@ const Blogs = () => {
 
         <div className="mt-12 text-center">
           <a
-            href="https://medium.com/@st4rburg3r"
+            href="https://medium.com/@trupti.v19625"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 cyber-link text-primary"
