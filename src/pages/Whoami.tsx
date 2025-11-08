@@ -3,10 +3,13 @@ import { Code2, Shield, Terminal, Zap } from 'lucide-react';
 
 const Whoami = () => {
   const skills = [
-    { icon: Code2, name: 'Full-Stack Development', desc: 'React, TypeScript, Node.js, Python' },
-    { icon: Shield, name: 'Cybersecurity', desc: 'Security research, penetration testing' },
-    { icon: Terminal, name: 'DevOps', desc: 'CI/CD, Docker, Cloud infrastructure' },
-    { icon: Zap, name: 'Problem Solving', desc: 'Algorithm design, system architecture' },
+    { icon: Shield, name: 'Offensive Security', desc: 'Web app pentesting, network exploitation, privilege escalation' },
+    { icon: Code2, name: 'Automation Engineering', desc: 'Building low-code security workflows & integrations' },
+    { icon: Terminal, name: 'Security Tools', desc: 'Nmap, Burp Suite, Metasploit, Wireshark, Hydra, JohnTheRipper' },
+    { icon: Code2, name: 'Automation & Scripting', desc: 'Python, Bash, workflow automation using n8n & iAgents' },
+    { icon: Zap, name: 'Blue Team Ops', desc: 'SIEM analysis, threat detection, incident response' },
+    { icon: Shield, name: 'System & Network Hardening', desc: 'Linux security, firewall configuration, access control' },
+    { icon: Terminal, name: 'Monitoring & Intelligence', desc: 'Log analysis, alert correlation, IOC tracking' },
   ];
 
   return (
@@ -16,7 +19,7 @@ const Whoami = () => {
 
         <div className="prose prose-invert max-w-none mb-12">
           <p className="text-lg text-foreground leading-relaxed mb-6">
-            Coming from Mumbai, I'm a junior security engineer with hands-on experience in web app and network penetration testing. I specialize in using tools like Nmap, Burp Suite, and Metasploit for vulnerability assessment and exploitation in homelab environments.
+            Coming from Mumbai, I'm a junior security engineer with hands-on experience in web app and network penetration testing. I'm fluent with using tools like Nmap, Burp Suite, and Metasploit for vulnerability assessment and exploitation in homelab environments.
           </p>
           
           <p className="text-muted-foreground leading-relaxed mb-6">
