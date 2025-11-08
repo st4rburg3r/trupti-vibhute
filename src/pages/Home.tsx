@@ -11,16 +11,17 @@ const Home = () => {
           <h1 className="text-6xl md:text-7xl font-black text-primary mb-4 font-orbitron">
             st4rburg3r &gt;
           </h1>
-          <p className="text-muted-foreground text-lg mb-8">Tech | Coding | Life</p>
+          <p className="text-muted-foreground text-lg mb-8">Talks | Projects | Digital wanderings</p>
           <SocialLinks />
         </div>
 
         {/* Welcome Text */}
         <div className="prose prose-invert max-w-none mb-12">
           <p className="text-foreground text-lg leading-relaxed mb-6">
-            Hi, I'm Trupti. Welcome to my space — a simple corner where I share what I'm working on, learning, and thinking about.              </p>
+            Hi, I'm <span className="highlight">Trupti</span>. Welcome to my space — a simple corner where I share what I'm <span className="highlight">working on</span>, <span className="highlight">learning</span>, and <span className="highlight">thinking about</span>.
+          </p>
           <p className="text-muted-foreground leading-relaxed">
-            I'm into tech, creativity, and exploring how they come together in everyday life. Feel free to look around and see what I've been up to.
+            I'm into <span className="highlight">tech</span>, <span className="highlight">creativity</span>, and <span className="highlight">exploring</span> how they come together in everyday life. Feel free to look around and see what I've been up to.
           </p>
         </div>
 

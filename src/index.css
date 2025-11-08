@@ -70,4 +70,10 @@ All colors MUST be HSL.
   .cyber-link:hover::after {
     @apply w-full;
   }
+  .highlight {
+    font-family: 'JetBrains Mono', monospace; /* Match terminal style */
+    font-weight: 200; /* ExtraLight for thin look */
+    @apply text-primary; /* Red (0 100% 45%) from design system */
+    text-shadow: 0 0 5px hsl(var(--primary) / 0.5); /* Neon glow */
+  }
 }
