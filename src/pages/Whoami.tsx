@@ -12,25 +12,19 @@ const Whoami = () => {
   return (
     <div className="min-h-screen pt-24 pb-12">
       <div className="container mx-auto px-4 max-w-4xl">
-        <h1 className="text-5xl font-black text-primary mb-8 font-orbitron">whoami</h1>
+        <h1 className="text-5xl font-black text-primary mb-8 font-orbitron">$ cat whoami</h1>
 
         <div className="prose prose-invert max-w-none mb-12">
           <p className="text-lg text-foreground leading-relaxed mb-6">
-            I'm st4rburg3r, a software engineer and security researcher with a passion for building 
-            secure, scalable systems. My journey in tech started with curiosity about how things work 
-            under the hood, and it's evolved into a career focused on creating meaningful solutions.
+            Coming from Mumbai, I'm a junior security engineer with hands-on experience in web app and network penetration testing. I specialize in using tools like Nmap, Burp Suite, and Metasploit for vulnerability assessment and exploitation in homelab environments.
           </p>
           
           <p className="text-muted-foreground leading-relaxed mb-6">
-            Currently, I work on full-stack applications with a strong emphasis on security and 
-            performance. I believe in writing clean, maintainable code and sharing knowledge with 
-            the community through blogs, open-source contributions, and mentoring.
+            I have practical experience in SOC analysis and threat detection using Splunk and ELK Stack. My work includes building sample dashboards to spot brute-force attempts and malware patterns in event logs. I've also conducted digital forensics tasks, from analyzing disk images with Autopsy to running memory analysis in Volatility for intrusion investigations.
           </p>
 
           <p className="text-muted-foreground leading-relaxed">
-            When I'm not coding, you'll find me exploring new technologies, contributing to 
-            open-source projects, or diving deep into cybersecurity research. I'm always learning, 
-            always building, and always curious.
+            Recently, I've been exploring the intersection of AI and cybersecurity — automating security checks, building small AI scripts to summarize vulnerability reports, and experimenting with machine learning for smarter threat detection.
           </p>
         </div>
 
