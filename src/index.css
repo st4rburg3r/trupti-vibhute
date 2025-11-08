@@ -50,13 +50,16 @@ All colors MUST be HSL.
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply font-orbitron;
+    font-family: 'JetBrains Mono', monospace; /* Replace font-orbitron */
+    @apply font-extralight; /* Maps to font-weight: 200 for thin look */
   }
 }
 
 @layer utilities {
   .cyber-link {
-    @apply relative inline-block text-muted-foreground hover:text-primary transition-colors;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 200; /* ExtraLight for thin look */
+    @apply text-xl text-primary; /* ~20px, red (0 100% 45%) */
   }
   
   .cyber-link::after {
