@@ -58,8 +58,7 @@ const Blogs = () => {
         <h1 className="text-5xl font-black text-primary mb-8 font-orbitron">blogs</h1>
 
         <p className="text-muted-foreground mb-12 leading-relaxed">
-          Here are my latest posts from Medium. I write about software development, 
-          cybersecurity, and lessons learned from building things.
+          Some of my recent posts — just me talking tech, security, and things I've been messing around with.
         </p>
 
         {loading && (

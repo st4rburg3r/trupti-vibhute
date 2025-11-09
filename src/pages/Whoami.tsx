@@ -4,12 +4,12 @@ import { Code2, Shield, Terminal, Zap } from 'lucide-react';
 const Whoami = () => {
   const skills = [
     { icon: Shield, name: 'Offensive Security', desc: 'Web app pentesting, network exploitation, privilege escalation' },
-    { icon: Code2, name: 'Automation Engineering', desc: 'Building low-code security workflows & integrations' },
-    { icon: Terminal, name: 'Security Tools', desc: 'Nmap, Burp Suite, Metasploit, Wireshark, Hydra, JohnTheRipper' },
-    { icon: Code2, name: 'Automation & Scripting', desc: 'Python, Bash, workflow automation using n8n & iAgents' },
-    { icon: Zap, name: 'Blue Team Ops', desc: 'SIEM analysis, threat detection, incident response' },
-    { icon: Shield, name: 'System & Network Hardening', desc: 'Linux security, firewall configuration, access control' },
-    { icon: Terminal, name: 'Monitoring & Intelligence', desc: 'Log analysis, alert correlation, IOC tracking' },
+    { icon: Zap, name: 'Automation Engineering', desc: 'Building low-code security workflows & integrations' },
+    { icon: Shield, name: 'Security Tools', desc: 'Nmap, Burp Suite, Metasploit, Wireshark, Hydra, JohnTheRipper' },
+    { icon: Shield, name: 'Blue Team Ops', desc: 'SIEM analysis, threat detection, incident response' },
+    { icon: Code2, name: 'System & Network Hardening', desc: 'Linux security, firewall configuration, access control' },
+    { icon: Terminal, name: 'Automation & Scripting', desc: 'Python, Bash, workflow automation using n8n & iAgents' },
+    { icon: Zap, name: 'Monitoring & Intelligence', desc: 'Log analysis, alert correlation, IOC tracking' },
   ];
 
   return (
