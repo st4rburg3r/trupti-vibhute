@@ -55,7 +55,7 @@ const Blogs = () => {
   return (
     <div className="min-h-screen pt-24 pb-12">
       <div className="container mx-auto px-4 max-w-4xl">
-        <h1 className="text-5xl font-black text-primary mb-8 font-orbitron">$ curl blog.api/v1/posts</h1>
+        <h1 className="text-5xl font-black text-primary mb-8 font-orbitron">$ curl articles.api/v1/posts</h1>
 
         <p className="text-muted-foreground mb-12 leading-relaxed">
           Some of my recent posts — just me talking tech, security, and things I've been messing around with.

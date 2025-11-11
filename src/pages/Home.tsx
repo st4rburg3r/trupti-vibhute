@@ -32,7 +32,7 @@ const Home = () => {
             className="group bg-card border border-border rounded-lg p-6 hover:border-primary transition-all"
           >
             <h3 className="text-xl font-bold text-foreground mb-2 flex items-center gap-2">
-              Latest Blogs
+              Latest Articles
               <ArrowRight className="text-primary opacity-0 group-hover:opacity-100 transition-opacity" size={20} />
             </h3>
             <p className="text-muted-foreground text-sm">

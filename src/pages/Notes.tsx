@@ -4,52 +4,46 @@ const Notes = () => {
   const notes = [
     {
       id: 1,
-      title: 'Mastering AI Prompts',
-      date: '2025-01-10',
-      content: 'Learning to craft effective prompts is becoming essential. Key principles: be specific, provide context, iterate on results, and understand model limitations.'
+      title: 'Switched to Linux Mint',
+      date: '2025-11-10',
+      content: 'finally ditched Windows for Linux Mint — way smoother than I expected. No random updates killing my vibe, just a clean setup that actually does what I want. Spent the weekend tuning configs, and now it looks exactly how I like it. Mints super chill for beginners — fast, stable, and crazy customizable. You can make it look cute, edgy, or sleek. Thats what I love and hate about Linux — youre in control of everything, for better or worse. But honestly, that freedom hits different.',
     },
     {
       id: 2,
-      title: 'Security First Development',
-      date: '2025-01-05',
-      content: 'Security should never be an afterthought. Input validation, proper authentication, rate limiting, and regular security audits are non-negotiable in modern apps.'
+      title: 'Automating with n8n',
+      date: '2025-11-08',
+      content: 'Stumbled across an n8n youtube tutorial and life doesnt feel the same after that lol. Its wild how much you can automate with it. I  Set up a workflow that grabs tech news and drops it straight into my Discord server. I also have a workflow for adding new notes to this page. Thinking about how i can exploit n8n next. Honestly, once you start automating, doing things manually just feels dumb.',
     },
     {
       id: 3,
-      title: 'React Performance Tips',
-      date: '2024-12-28',
-      content: 'Quick wins: useMemo/useCallback for expensive computations, React.lazy for code splitting, virtualization for long lists, and avoiding inline functions in render.'
+      title: 'Deactivating Socials?',
+      date: '2025-11-06',
+      content: 'Thinking about pulling the plug on socials for a bit — they`re great for finding solid cybersecurity content, but man, they drain focus fast. I actually got the idea to switch to Linux Mint from scrolling through reels and stumbled into the whole “ricing” scene, people turning their setups into literal art. Now it`s time to stop just watching and actually build my own. Might go dark for a week, cut the noise, and see if my productivity (and desktop) finally level up.',
     },
     {
       id: 4,
-      title: 'TypeScript Best Practices',
-      date: '2024-12-20',
-      content: 'Strict mode is your friend. Use interfaces for object shapes, avoid "any", leverage union types, and let TypeScript infer types when possible.'
+      title: 'Cold Shower + Coffee Hack',
+      date: '2025-11-04',
+      content: 'Cold showers followed by a hot black coffee is honestly, the best combo Ive found. Ts gets me locked in fast.',
     },
-    {
-      id: 5,
-      title: 'Git Workflow Efficiency',
-      date: '2024-12-15',
-      content: 'Small, focused commits with clear messages. Use branches for features, rebase to keep history clean, and always review your own PR before requesting reviews.'
-    }
+    ,
   ];
 
   const formatDate = (dateString: string) => {
     return new Date(dateString).toLocaleDateString('en-US', {
       year: 'numeric',
       month: 'long',
-      day: 'numeric'
+      day: 'numeric',
     });
   };
 
   return (
     <div className="min-h-screen pt-24 pb-12">
       <div className="container mx-auto px-4 max-w-4xl">
-        <h1 className="text-5xl font-black text-primary mb-8 font-orbitron">notes</h1>
+        <h1 className="text-5xl font-black text-primary mb-8 font-orbitron">$ git log --notes</h1>
 
         <p className="text-muted-foreground mb-12 leading-relaxed">
-          Quick thoughts, tips, and observations. These are shorter than blog posts but 
-          still worth sharing.
+          Quick brain-dumps, random thoughts, and stuff I’m messing with. Shorter than blogs, but still worth a peek.
         </p>
 
         <div className="space-y-4">
