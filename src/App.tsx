@@ -3,7 +3,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import { ParticleBackground } from "@/components/ParticleBackground";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
-import { Sidebar } from "@/components/Sidebar";
+// import { Sidebar } from "@/components/Sidebar";
 import Home from "./pages/Home";
 import Whoami from "./pages/Whoami";
 import Blogs from "./pages/articles";
@@ -22,7 +22,7 @@ const App = () => (
       <ParticleBackground />
       <div className="min-h-screen flex flex-col relative">
         <Header />
-        <Sidebar />
+        {/* <Sidebar /> */}
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<Home />} />

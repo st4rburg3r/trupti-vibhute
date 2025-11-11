@@ -34,7 +34,7 @@ const Home = () => {
 
           <div>
             <p className="text-foreground leading-relaxed">
-              Random <Link to="/slashes" className="highlight">commands</Link> I use.
+               <Link to="/slashes" className="highlight">Sitemap</Link> to help u navigate through this rabbit-hole.
             </p>
           </div>
 

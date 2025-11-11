@@ -52,7 +52,7 @@ const Interests = () => {
         <p className="text-muted-foreground mb-12 leading-relaxed">
           
           Trying to learn about multible things- from cybersecurity and AI systems 
-          to neuroscience, coffee, and everything that sharpens the mind and body.
+          to neuroscience, and everything that sharpens the mind and body.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6">
