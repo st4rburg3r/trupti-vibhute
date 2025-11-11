@@ -6,7 +6,7 @@ import { Footer } from "@/components/Footer";
 import { Sidebar } from "@/components/Sidebar";
 import Home from "./pages/Home";
 import Whoami from "./pages/Whoami";
-import Blogs from "./pages/Blogs";
+import Blogs from "./pages/articles";
 import Notes from "./pages/Notes";
 import Interests from "./pages/Interests";
 import Now from "./pages/Now";
