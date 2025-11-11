@@ -1,65 +1,45 @@
-import { Code, Shield, BookOpen, Music, Coffee, Gamepad2 } from 'lucide-react';
+import { Shield, Cpu, Coffee, BookOpen } from 'lucide-react';
 
 const Interests = () => {
   const interests = [
     {
-      icon: Code,
-      title: 'Software Engineering',
-      items: [
-        'Full-stack development with modern frameworks',
-        'System design and architecture',
-        'Clean code principles and best practices',
-        'Open-source contributions'
-      ]
-    },
-    {
       icon: Shield,
       title: 'Cybersecurity',
       items: [
-        'Security research and vulnerability analysis',
-        'Penetration testing and ethical hacking',
-        'Cryptography and secure protocols',
-        'Security automation tools'
+        'Penetration testing, CTFs, and vulnerability research',
+        'Network and web application security',
+        'Secure system architecture and automation',
+        'Constantly learning exploit development and red team tactics'
       ]
     },
     {
-      icon: BookOpen,
-      title: 'Learning & Growth',
+      icon: Cpu,
+      title: 'Automation & AI Engineering',
       items: [
-        'Technical books and documentation',
-        'Online courses and certifications',
-        'Tech conferences and meetups',
-        'Teaching and mentoring others'
-      ]
-    },
-    {
-      icon: Music,
-      title: 'Creative Outlets',
-      items: [
-        'Music production and sound design',
-        'Photography and visual arts',
-        'Writing technical and creative content',
-        'UI/UX design experiments'
+        'Building and automating workflows with tools like n8n',
+        'Exploring AI agents, LLM fine-tuning, and RAG systems',
+        'Developing intelligent automation pipelines for productivity',
+        'Experimenting with open-source AI models and self-hosted setups'
       ]
     },
     {
       icon: Coffee,
-      title: 'Lifestyle',
+      title: 'Lifestyle & Performance',
       items: [
-        'Specialty coffee and brewing methods',
-        'Fitness and outdoor activities',
-        'Minimalism and productivity systems',
-        'Travel and exploring new cultures'
+        'Running, cycling, and outdoor training',
+        'Pilates and bodyweight strength work',
+        'Specialty coffee — pour-over, AeroPress, and espresso experiments',
+        'Hiking, minimalism, and finding flow in movement'
       ]
     },
     {
-      icon: Gamepad2,
-      title: 'Gaming',
+      icon: BookOpen,
+      title: 'Reading & Mindset',
       items: [
-        'Strategy and puzzle games',
-        'Indie game development',
-        'Retro gaming and emulation',
-        'Game design analysis'
+        'Neuroscience, psychology, and behavioral science',
+        'Biohacking and performance optimization — Andrew Huberman is the GOAT',
+        'Non-fiction and mindset development reads',
+        'Esoteric philosophy — books like *The Kybalion* and related works'
       ]
     }
   ];
@@ -70,8 +50,9 @@ const Interests = () => {
         <h1 className="text-5xl font-black text-primary mb-8 font-orbitron">interests</h1>
 
         <p className="text-muted-foreground mb-12 leading-relaxed">
-          Things I'm passionate about, constantly learning, or just enjoy spending time on. 
-          Technology is at the core, but there's more to life than code.
+          
+          Trying to learn about multible things- from cybersecurity and AI systems 
+          to neuroscience, coffee, and everything that sharpens the mind and body.
         </p>
 
         <div className="grid md:grid-cols-2 gap-6">
