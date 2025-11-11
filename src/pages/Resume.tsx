@@ -15,7 +15,7 @@ const Resume = () => {
   return (
     <div className="min-h-screen pt-24 pb-12">
       <div className="container mx-auto px-4 max-w-4xl">
-        <h1 className="text-5xl font-black text-primary mb-8 font-orbitron">resume</h1>
+        <h1 className="text-5xl font-black text-primary mb-8 font-orbitron">$ history | grep career</h1>
 
         <div className="space-y-8">
           {/* Download Section */}
@@ -35,13 +35,13 @@ const Resume = () => {
 
           {/* Quick Overview */}
           <div className="bg-card border border-border rounded-lg p-6">
-            <h2 className="text-2xl font-bold text-foreground mb-6">Quick Overview</h2>
+            <h2 className="text-2xl font-bold text-foreground mb-6">$ head -n 10 resume.txt</h2>
             
             <div className="space-y-6">
               <div>
                 <h3 className="text-lg font-semibold text-primary mb-2">Experience</h3>
                 <p className="text-muted-foreground text-sm">
-                  5+ years in full-stack development with focus on React, TypeScript, Node.js, 
+                  2+ years in cybersecurity with focus on React, TypeScript, Node.js, 
                   and cloud infrastructure. Strong background in cybersecurity and secure application development.
                 </p>
               </div>
