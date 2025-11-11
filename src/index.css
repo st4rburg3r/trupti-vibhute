@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 220 13% 6%;
+    --background: 220 13% 25%;
     --foreground: 0 0% 85%;
 
     --card: 220 13% 8%;
@@ -45,8 +45,10 @@ All colors MUST be HSL.
     @apply border-border;
   }
 
-  body {
-    @apply bg-[#0f0f0f] text-foreground font-mono;
+ body {
+  @apply bg-[#0f0f0f] text-foreground font-mono;
+  /* Change to use the CSS variable instead: */
+  @apply bg-background text-foreground font-mono;
   }
 
   h1, h2, h3, h4, h5, h6 {
