@@ -26,7 +26,7 @@ const Notes = () => {
       date: '2025-10-04',
       content: 'Cold showers followed by a hot black coffee is honestly, the best combo Ive found. Ts gets me locked in fast.',
     },
-    ,
+    
   ];
 
   const formatDate = (dateString: string) => {
