@@ -1,22 +1,18 @@
 import { FileText } from 'lucide-react';
-
-// ------------------------------------------------------------
-// EXPORTED NOTES ARRAY (n8n will edit THIS section only)
-// ------------------------------------------------------------
 export const notes = [
   {
     id: 1,
     title: 'Switched to Linux Mint',
-    date: '2025-11-01',
+    date: '2025-06-17',
     content:
       'finally ditched Windows for Linux Mint and its wayyy smoother than I expected. No random updates, no unnecessary widgets popping on my lockscreen, no bloat. Spent the day customizing the look and i absolutely love it. Its fast, stable, and crazy customizable. You can make it look cute, edgy, or sleek. Thats what I love and hate about Linux — youre in control of everything, for better or worse. But honestly, that freedom hits different.',
   },
   {
     id: 2,
     title: 'Automating with n8n',
-    date: '2025-10-07',
+    date: '2025-07-05',
     content:
-      'Stumbled across an n8n youtube tutorial and life doesnt feel the same after that lol. Its wild how much you can automate with it. I  Set up a workflow that grabs tech news and drops it straight into my Discord server (not a big deal but i feel like GOD after doing this, let me have my moment). I also have a workflow for adding new notes to this page. Thinking about how i can exploit n8n next.Once you start automating (exploiting n8n), doing things manually just feels dumb (you get lazier).',
+      'Stumbled across an n8n youtube tutorial and life doesnt feel the same after that lol. Its wild how much you can automate with it. I  Set up a workflow that grabs tech news and drops it straight into my Discord server (not a big deal but i feel like GOD after doing this, let me have my moment). I am also working on a workflow for adding new notes to this page. Thinking about how i can exploit n8n next.Once you start automating (exploiting n8n), doing things manually just feels dumb (you get lazier).',
   },
   {
     id: 3,
@@ -28,7 +24,7 @@ export const notes = [
   {
     id: 4,
     title: 'Cold Shower + Coffee Hack',
-    date: '2025-10-04',
+    date: '2025-11-04',
     content:
       'Cold showers followed by a hot black coffee is honestly, the best combo Ive found. Ts gets me locked in fast.',
   },
@@ -37,7 +33,7 @@ export const notes = [
     title: 'First internship — cybersecurity',
     date: '2025-12-10',
     content:
-      "I got my first internship in cybersecurity and I can't wait to get started!! I've been waiting for this moment and it's finally happening.",
+      "I got my first internship in cybersecurity and I can't wait to get started! I gave two interviews and got accepted for both, which peaked my confidence. Interview was not that tough, mostly about my projects and what i know so far. Yeah but anyways, super excited to learn a lot of new stuff and make new connections with my peers.",
   },
 ];
 
