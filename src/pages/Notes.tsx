@@ -32,6 +32,13 @@ export const notes = [
     content:
       'Cold showers followed by a hot black coffee is honestly, the best combo Ive found. Ts gets me locked in fast.',
   },
+  {
+    id: 5,
+    title: 'First internship — cybersecurity',
+    date: '2025-12-10',
+    content:
+      "I got my first internship in cybersecurity and I can't wait to get started!! I've been waiting for this moment and it's finally happening.",
+  },
 ];
 
 // ------------------------------------------------------------
@@ -58,7 +65,10 @@ const Notes = () => {
         </p>
 
         <div className="space-y-4">
-          {notes.map((note) => (
+          {notes
+            .slice()
+            .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+            .map((note) => (
             <article
               key={note.id}
               className="bg-card border border-border rounded-lg p-6 hover:border-primary transition-all"
