@@ -1,7 +1,1 @@
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Access the portfolio website on : https://st4rburg3r.github.io/trupti-vibhute/
